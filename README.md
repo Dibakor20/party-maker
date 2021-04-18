@@ -58,4 +58,4 @@ panel.where admin can see the all order list and updated user order by status.Ad
 
 ## Live Link :
 
- https://party-maker2.web.app/# complete-website-client-Dibakor20
+ https://party-maker2.web.app/
