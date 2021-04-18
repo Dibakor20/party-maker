@@ -1,0 +1,53 @@
+.contact-us{
+    text-align: center;
+}
+.contact-us h5{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 400;
+    color: #212121;
+}
+.contact-us p{
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878b;
+    margin-top: 24px;
+}
+.contact-line{
+    height: 3px;
+    width: 85px;
+    background:maroon;
+    margin: 30px auto;
+}
+.conatct-form .form-control{
+    border-radius: 0;
+    margin-bottom: 20px;
+    
+   
+}
+.form-control {
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+}
+.message-area .form-control{
+  height: 155px;
+}
+.contact{
+    margin-bottom: 80px;
+}
+.contact-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background:#dc3545;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 20px;
+    border: 2px solid #dc3545;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+.button{
+    text-align: center;
+}

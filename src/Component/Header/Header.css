@@ -1,0 +1,16 @@
+.header-nav{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:aquamarine !important;
+    font-weight: 600;
+}
+.navbar-brand{
+    font-size: 24px;
+    color:aquamarine !important;
+    font-weight: 700;
+}
+.log{
+    background-color: #17a2b8;
+    color: white;
+   
+}

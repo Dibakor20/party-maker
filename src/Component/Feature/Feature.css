@@ -1,0 +1,48 @@
+.feature-2{
+    padding: 100px 0;
+}
+.circle {
+    height: 60px;
+    width: 60px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    color: #dc3545;
+    font-size: 25px;
+    border: 2px solid #dc3545;
+}
+.sub-line{
+    height: 2px;
+    width: 80px;
+    background: #dc3545; 
+    margin: 20px 0px;  
+}
+.sub-list{
+    padding-left: 40px;
+}
+.feature-3{
+    width: 100%;
+    background: #f5f5f5;
+    padding: 100px;
+    margin-bottom: 80px;
+}
+.pictures{
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878b;
+    margin-top: 24px;
+}
+.pict{
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #212121;
+}
+.event{
+    margin-top: 120px;
+}
+.popular{
+    margin-top: 80px;
+}

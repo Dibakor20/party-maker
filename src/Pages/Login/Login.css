@@ -1,0 +1,25 @@
+.login{
+    margin-top: 80px;
+}
+.social-login{
+    border: 1px solid #C7C7C7;
+    border-radius:20px;
+    padding: 6px 0;
+    width: 20%;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+.social-login:hover{
+    background-color: lightgrey;
+}
+.logo{
+    width:37px;
+    height: 37px;
+}
+
+@media only screen and (max-width: 600px){
+    .social-login{
+        width: 60%;
+    }
+}
