@@ -25,7 +25,7 @@ const Review = () => {
     },[])
     return (
         <>
-            <div className="container">
+            <div id="review" className="container">
             <h5 class="text-center what mb-5">WHAT OUR CUSTOMERS ARE SAYING</h5>
                 <div className="row">
                 {

@@ -24,8 +24,6 @@ export const UserContext = createContext()
 function App() {
   const [isAdmin, setIsAdmin] = useState(false);
 
-
-
   const [user, setUser] = useState({
     userName: '',
     email: '',
@@ -41,9 +39,6 @@ function App() {
          <Route path="/home">
            <Home/>
          </Route>
-         {/* <PrivateRoute path = "/dashboard">
-           <Dashboard/>
-         </PrivateRoute> */}
          <PrivateRoute path="/booking/:title">
            <Booking/>
          </PrivateRoute>

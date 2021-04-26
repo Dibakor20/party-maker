@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .what{
     text-align: center;
     font-family: 'Raleway', sans-serif;

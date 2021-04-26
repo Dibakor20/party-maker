@@ -29,35 +29,35 @@ const Sidebar = () => {
                isAdmin ?
                <div>
                <li >
-               <Link class="nav-link text-white ml-5" to="/orderList">Order List</Link>
+               <Link class="nav-link text-white" to="/orderList"><i class="fas fa-cart-plus"></i> Order List</Link>
            </li>
            <li >
-               <Link to="/addService" class="nav-link text-white ml-5" >Add Service </Link>
+               <Link to="/addService" class="nav-link text-white " ><i class="fas fa-plus-square"></i> Add Service </Link>
            </li>
            <li >
-               <Link  class="nav-link text-white ml-5" to="/manageService">Manage Service</Link>
+               <Link  class="nav-link text-white " to="/manageService"><i class="far fa-cog"></i> Manage Service</Link>
            </li>
            <li >
-               <Link class="nav-link text-white ml-5" to="/addAdmin">Make Admin </Link>
+               <Link class="nav-link text-white" to="/addAdmin"><i class="fal fa-user"></i> Make Admin </Link>
            </li>
            <li >
-                <Link to="/home" class="nav-link text-white ml-5">Home</Link>
+                <Link to="/home" class="nav-link text-white "><i class="fad fa-home"></i> Home</Link>
             </li>
            </div>
              :
              <div>
             <li >
-                <Link to="/booking/:title" class="nav-link text-white ml-5">Book</Link>
+                <Link to="/booking/:title" class="nav-link text-white"><i class="fas fa-plus-square"></i> Book</Link>
             </li>
             <li >
-                <Link class="nav-link text-white ml-5" to="/bookingList">Booking List</Link>
+                <Link class="nav-link text-white " to="/bookingList"><i class="fas fa-cart-plus"></i> Booking List</Link>
             </li>
             <li >
-                <Link class="nav-link text-white ml-5" to="/addReview">Review</Link>
+                <Link class="nav-link text-white" to="/addReview"><i class="far fa-comments-alt"></i> Review</Link>
             </li>
             
             <li >
-                <Link to="/home" class="nav-link text-white ml-5">Home</Link>
+                <Link to="/home" class="nav-link text-white"><i class="fad fa-home"></i> Home</Link>
             </li>
            </div>
            }

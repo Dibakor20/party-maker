@@ -18,8 +18,8 @@ const Header = () => {
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
                 <Link  class="nav-link header-nav mr-3 " to="/home">Home </Link>
-                <a class="nav-link header-nav mr-3  " href="#">Our PortFolio</a>
-                <a class="nav-link header-nav mr-3 " href="#">Our Team</a>
+                <a class="nav-link header-nav mr-3  " href="#event">Event</a>
+                <a class="nav-link header-nav mr-3 " href="#review">Review</a>
           
               {user.email && <div> {
                     isAdmin ?<Link to="/orderList" class="nav-link header-nav mr-3 ">Dashboard</Link>:

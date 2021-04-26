@@ -24,7 +24,7 @@ const Service = () => {
 
     return (
         <>
-         <div className="container mt-5 mb-5">
+         <div id="event" className="container mt-5 mb-5">
             <h1 className="text-center mb-5">Our Services</h1>
             <div className="row">
                   {
